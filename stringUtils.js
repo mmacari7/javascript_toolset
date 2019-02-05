@@ -32,8 +32,8 @@ exports.repeat = function(newString, num){
         throw("*** stringUtils.repeat: number passed is not an integer")
     }
     // Check that it is positive
-    if(num < 0){
-        throw("*** stringUtils.repeat: number passed in must be greater than or equal to 0")
+    if(num <= 0){
+        throw("*** stringUtils.repeat: number passed in must be greater than 0")
     }
     // Make new empty string
     s = ''
