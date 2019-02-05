@@ -1,7 +1,7 @@
 {
   "name": "cs-546-lab-2",
   "version": "1.0.0",
-  "description": "Array Manipulation",
+  "description": "Tool set for object, string, and array manipulation in JavaScript",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
